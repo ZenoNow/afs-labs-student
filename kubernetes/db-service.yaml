@@ -4,7 +4,7 @@ metadata:
   name: db-service
   namespace: snash
 spec:
-  type: clusterIP
+  type: ClusterIP
   selector:
     app: db
   ports:
